@@ -222,7 +222,7 @@ iex> double.(2)
 4
 ```
 
-Keep in mind a variable assigned inside a function does not affect its surrounding environment:
+Keep in mind a variable bound inside a function does not affect its surrounding environment:
 
 ```iex
 iex> x = 42
